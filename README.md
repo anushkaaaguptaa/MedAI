@@ -57,7 +57,7 @@ HUGGINGFACE_REPO_ID=mistralai/Mistral-7B-Instruct-v0.3
 ```
 
 ## ⚙️ Installation
-Use the provided `requirements.txt` 
+Use the provided `requirements.txt` / 'pyprojects.toml'
 
 ### 1. Create & Activate Virtual Environment
 ```zsh
