@@ -110,14 +110,6 @@ db = FAISS.from_documents(chunks, emb)
 db.save_local("vectorstore/db_faiss")
 ```
 
-## 💬 Running the CLI Version
-```zsh
-source .venv/bin/activate
-export HF_TOKEN=...  # if not in .env
-python connect_memory_with_llm.py
-```
-Enter a query at the prompt: `How is hypertension managed?`
-
 ## 🖥 Running the Streamlit App
 ```zsh
 source .venv/bin/activate
@@ -181,7 +173,6 @@ python connect_memory_with_llm.py          # CLI (needs HF_TOKEN)
 ```
 
 ---
-Questions or want enhancements? Open an issue or extend the scripts directly. Enjoy building with RAG! 🧪
 
 ## 🔐 .env.example and .gitignore (recommended)
 
